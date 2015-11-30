@@ -6,16 +6,20 @@
              alt="{{ config.title }}"/>
       </a>
     </div>
+
+    <nav class="main-nav overlay clearfix">
+        <canvas width="1084" height="597" style="position: absolute; top: 0px; left: 0px;"></canvas>
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ config.title }}</h1>
+            <h2 class="page-description"></h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#main" data-offset="-45"><span class="hidden">Scroll Down</span></a>
   {% endif %}
 
-  <div class="custom-logo-site-title">
-    <a href="{{ config.root }}"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">{{ config.title }}</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-  <p class="site-subtitle">{{ config.subtitle }}</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -63,4 +67,3 @@
     </div>
   {% endif %}
 </nav>
-
