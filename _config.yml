@@ -7,9 +7,9 @@ title: 前端路 - Henry.Zhou
 subtitle: 前端路 - Henry.Zhou 前端學習整理
 description: 前端路 - Henry.Zhou 前端學習整理
 author: Henry
+email: 262767665@qq.com #联系邮箱
 language:
 timezone:
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
@@ -70,4 +70,5 @@ stylus:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: https://github.com/DevlJs/DevlJs.github.io.git
