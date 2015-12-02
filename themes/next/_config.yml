@@ -179,7 +179,7 @@ duoshuo_shortname: develjs
 # Google Analytics
 google_analytics:
   enable: true
-  id:     "UA-70826513-1"       ## google analytics ID.
+  id:     "UA-70956613-1"       ## google analytics ID.
   site:   "devljs.github.io"       ## 网站地址.
 
 
