@@ -4,22 +4,22 @@
 
 # Site
 title: 前端路 - Henry.Zhou
-subtitle: 前端路 - Henry.Zhou 前端學習整理
-description: 前端路 - Henry.Zhou 前端學習整理
+subtitle: Web前端 JavaScript NodeJs
+description: Web前端 JavaScript NodeJs
 author: Henry
 email: 262767665@qq.com #联系邮箱
 language:
 timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://devljs.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: deploy
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -64,8 +64,7 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
-stylus:
-  compress: true
+
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
